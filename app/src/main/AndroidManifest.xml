@@ -28,6 +28,12 @@
             android:name=".RegisterActivity"
             android:exported="true" />
         <activity
+            android:name=".ForumAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".ForumActivity"
+            android:exported="false" />
+        <activity
             android:name=".CategoryAdapter"
             android:exported="false"
             tools:ignore="Instantiatable" />
@@ -35,9 +41,6 @@
             android:name=".CategoryActivity"
             android:exported="false"
             android:label="@string/category_page" />
-        <activity
-            android:name=".ForumActivity"
-            android:exported="true"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

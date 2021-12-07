@@ -47,19 +47,16 @@ public class CategoryActivity extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                Intent intent;
                 switch (item.getItemId()){
                     case R.id.navHomeMenu:
                         startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.navCategoryMenu:
-//                        startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
-//                        overridePendingTransition(0,0);
                         return true;
                     case R.id.navForumMenu:
-//                        startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
-//                        overridePendingTransition(0,0);
+                        startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
+                        overridePendingTransition(0,0);
                         Toast.makeText(getApplicationContext(), "OnGoing Project", Toast.LENGTH_SHORT).show();
                         return true;
                     case R.id.navCartMenu:

@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                Intent intent;
                 switch (item.getItemId()){
                     case R.id.navHomeMenu:
 //                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
