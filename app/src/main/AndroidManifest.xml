@@ -29,10 +29,12 @@
             android:exported="true" />
         <activity
             android:name=".ForumAdapter"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".ForumActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/forum_page"/>
         <activity
             android:name=".CategoryAdapter"
             android:exported="false"

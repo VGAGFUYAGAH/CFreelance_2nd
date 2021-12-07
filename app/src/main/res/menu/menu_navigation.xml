@@ -15,7 +15,7 @@
 
     <item
         android:id="@+id/navForumMenu"
-        android:title="Discussion Forum"
+        android:title="Forum"
         android:icon="@drawable/ic_forum"
         />
 

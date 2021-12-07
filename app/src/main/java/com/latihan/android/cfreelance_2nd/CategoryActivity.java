@@ -55,14 +55,13 @@ public class CategoryActivity extends AppCompatActivity {
                     case R.id.navCategoryMenu:
                         return true;
                     case R.id.navForumMenu:
-                        startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
+                        startActivity(new Intent(getApplicationContext(), ForumActivity.class));
                         overridePendingTransition(0,0);
-                        Toast.makeText(getApplicationContext(), "OnGoing Project", Toast.LENGTH_SHORT).show();
                         return true;
                     case R.id.navCartMenu:
 //                        startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
 //                        overridePendingTransition(0,0);
-                        Toast.makeText(getApplicationContext(), "OnGoing Project", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Feature Coming Soon!", Toast.LENGTH_SHORT).show();
                         return true;
                 }
                 return false;

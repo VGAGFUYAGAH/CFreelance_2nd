@@ -35,22 +35,19 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.navHomeMenu:
-//                        startActivity(new Intent(getApplicationContext(), MainActivity.class));
-//                        overridePendingTransition(0,0);
                         return true;
                     case R.id.navCategoryMenu:
                         startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
                         overridePendingTransition(0,0);
                         return true;
                     case R.id.navForumMenu:
-//                        startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
-//                        overridePendingTransition(0,0);
-                        Toast.makeText(getApplicationContext(), "OnGoing Project", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(getApplicationContext(), ForumActivity.class));
+                        overridePendingTransition(0,0);
                         return true;
                     case R.id.navCartMenu:
 //                        startActivity(new Intent(getApplicationContext(), CategoryActivity.class));
 //                        overridePendingTransition(0,0);
-                        Toast.makeText(getApplicationContext(), "OnGoing Project", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(), "Feature Coming Soon!", Toast.LENGTH_SHORT).show();
                         return true;
                 }
                 return false;
