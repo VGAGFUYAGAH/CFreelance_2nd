@@ -13,8 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CFreelance_2nd">
         <activity
-            android:name=".ForumActivity"
-            android:exported="false" />
+            android:name=".IntroductionActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
         <activity
             android:name=".CategoryAdapter"
             android:exported="false"
@@ -24,15 +36,12 @@
             android:exported="false"
             android:label="@string/category_page" />
         <activity
+            android:name=".ForumActivity"
+            android:exported="true"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/home_page">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
-
 </manifest>

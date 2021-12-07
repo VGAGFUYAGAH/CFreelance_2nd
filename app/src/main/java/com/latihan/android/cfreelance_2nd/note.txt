@@ -2,7 +2,7 @@
     - %s, progressDetails[0]
     - %s, progressDetails[1]
 
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 
 6 Dec 2021
     - Membuat progres di Home dan menerapkan RecyclerView di Category
@@ -11,4 +11,25 @@
     - Memberi judul activity di strings.xml
     - Mengganti judul setiap activity melalui manifest
 
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
+
+7 Dec 2021
+    Ditambahkan:
+
+    * ACTIVITY
+        - LoginActivity
+        - RegisterActivity
+        - IntroductionActivity
+
+    * FONT
+        - Font Roboto Regular
+        - Font Roboto Bold
+
+    * DRAWABLE
+        = drawable/gradient_bg.xml untuk menjadi background dari IntroductionActivity
+        - drawable/rounded_corner.xml untuk ngebuat corner yang agak bulet
+
+    * DATABASE
+        - UserDatabaseHelper, menghandle database untuk user.
+
+----------------------------------------------------------------------------------------------------
