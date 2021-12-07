@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.latihan.android.cfreelance_2nd">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -13,17 +13,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CFreelance_2nd">
         <activity
+            android:name=".ForumActivity"
+            android:exported="false" />
+        <activity
             android:name=".CategoryAdapter"
             android:exported="false"
             tools:ignore="Instantiatable" />
         <activity
             android:name=".CategoryActivity"
-            android:label="@string/category_page"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/category_page" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/home_page"
-            android:exported="true">
+            android:exported="true"
+            android:label="@string/home_page">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
