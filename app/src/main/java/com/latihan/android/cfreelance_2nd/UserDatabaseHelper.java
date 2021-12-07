@@ -34,7 +34,7 @@ public class UserDatabaseHelper extends SQLiteOpenHelper {
                 COLUMN_USERNAME + " TEXT, " +
                 COLUMN_EMAIL + " TEXT, " +
                 COLUMN_PASSWORD + " TEXT);";
-        // CREATE TABLE user (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, email TEXT, password TEXT;
+        // Kalau Disingkat: CREATE TABLE user (id INTEGER PRIMARY KEY AUTOINCREMENT, username TEXT, email TEXT, password TEXT;
 
         db.execSQL(query);
     }
