@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CFreelance_2nd">
         <activity
+            android:name=".ForumAdapter"
+            android:exported="false" />
+        <activity
             android:name=".ForumActivity"
             android:exported="false" />
         <activity
