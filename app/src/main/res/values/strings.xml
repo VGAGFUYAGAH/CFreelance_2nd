@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CFreelance</string>
+    <string name="home_page">Home</string>
+    <string name="category_page">Category</string>
+    <string name="forum_page">Discussion Forum</string>
+    <string name="cart_page">Cart</string>
+</resources>
